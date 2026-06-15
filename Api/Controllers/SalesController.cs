@@ -1,4 +1,5 @@
 using Confluent.Kafka;
+using Contracts;
 using Microsoft.AspNetCore.Mvc;
 using StackExchange.Redis;
 using System.Text.Json;

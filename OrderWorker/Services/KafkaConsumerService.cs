@@ -1,10 +1,10 @@
 using System.Text.Json;
 using Confluent.Kafka;
+using Contracts;
 using Microsoft.EntityFrameworkCore;
 using OrderWorker.Data;
-using OrderWorker.Models;
 using StackExchange.Redis;
-using Order = OrderWorker.Models.Order;
+using Order = Domain.Entities.Order;
 
 namespace OrderWorker.Services
 {
